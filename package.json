@@ -1,0 +1,19 @@
+{
+  "name": "xok",
+  "version": "1.0.0",
+  "description": "Extend an object with the \"has own property\"'s of other object(s)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natevw/xok"
+  },
+  "author": "Nathan Vander Wilt",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/natevw/xok/issues"
+  },
+  "homepage": "https://github.com/natevw/xok"
+}
