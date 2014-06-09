@@ -1,7 +1,8 @@
 # xok
 
+Simply extend an object with the keys from others.
 
-The name is short for extend-object-ownkeys; hat tip to @henrikjoreteg for ['extend-object'](https://www.npmjs.org/package/extend-object) which does pretty much the same thing as this, but uses `for … in` to match Underscore.js instead of `Object.keys` to match ???. See also ['extend'](https://www.npmjs.org/package/extend) if you want all the $.extend features.
+The name is short for extend-object-ownkeys; hat tip to [@henrikjoreteg](https://twitter.com/henrikjoreteg) for ['extend-object'](https://www.npmjs.org/package/extend-object) which does pretty much the same thing as this, but uses `for … in` to match Underscore.js instead of `Object.keys` to match ???. See also ['extend'](https://www.npmjs.org/package/extend) if you want all the $.extend features.
 
 
 ## Example
