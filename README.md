@@ -1,5 +1,18 @@
 # xok
 
+---
+
+**NOTE**: as it turns out, this library very closely matched the behavior of the new `Object.assign` builtin! ([MDN documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign))
+
+To celebrate, I've updated it to simply use the builtin implementation when available. So you can use this as a quasi-polyfill for `Object.assign` if you'd like, or just use `Object.assign`
+
+Main differences:
+
+- `xok` doesn't check or convert its `target` to an object like `Object.assign` does
+- `xok` has a slightly different check for the validity of subsequent arguments
+
+---
+
 Simply extend an object with the keys from others.
 
 The name is short for extend-object-ownkeys; hat tip to [@henrikjoreteg](https://twitter.com/henrikjoreteg) for ['extend-object'](https://www.npmjs.org/package/extend-object) which does pretty much the same thing as this, but uses `for … in` to match Underscore.js instead of `Object.keys` to match ???. See also ['extend'](https://www.npmjs.org/package/extend) if you want all the $.extend features.

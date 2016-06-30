@@ -1,6 +1,6 @@
 {
   "name": "xok",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Extend an object with the \"has own property\"'s of other object(s)",
   "main": "index.js",
   "scripts": {
